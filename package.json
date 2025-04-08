@@ -1,5 +1,5 @@
 {
-    "name": "VORTEX XMD",
+    "name": "SILVA MD",
     "version": "3.0.0",
     "description": "Advanced WhatsApp",
     "main": "vortex.js",
@@ -28,16 +28,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/mrhanstz/VORTEX-XMD",
+    "homepage": "https://github.com/SilvaTechB/silva-md-bot",
     "author": {
         "name": "GURU"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mrhanstz/VORTEX-XMD.git"
+        "url": "git+https://github.com/SilvaTechB/silva-md-bot.git"
     },
     "bugs": {
-        "url": "https://github.com/mrhanstz/VORTEX-XMD/issues"
+        "url": "https://github.com/SilvaTechB/silva-md-bot/issues"
     },
     "license": "Apache License 2.0",
     "dependencies": {

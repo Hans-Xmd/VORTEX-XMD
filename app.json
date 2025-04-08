@@ -1,24 +1,24 @@
 {
-  "name": "VORTEX-XMD 𝐁𝐎𝐓",
+  "name": "VORTEX 𝐌𝐃 𝐁𝐎𝐓",
   "description": " with great power comes with great responsibilities. follow the deployment process below..",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/SilvaTechB/VORTEX-XMD-bot",
+  "repository": "https://github.com/Hans-Xmd/VORTEX-XMD",
   "stack": "container",
   "env": {
     "OWNERS": {
       "description": "owner numbers",
       "required": true,
-      "value": "255760774888;VORTEX-XMD 𝐁𝐎𝐓"
+      "value": "255753668403;VORTEX 𝐌𝐃 𝐁𝐎𝐓"
     },
     "BOTNAME": {
       "description": "Give your BOT a name",
       "required": true,
-      "value": "VORTEX-XMD-BOT©®"
+      "value": "VORTEX-MD-BOT©®"
     },
     "SESSION_ID": {
-      "description": "your session id. get session here Vortex",
+      "description": "your session id. get session here https://VORTEX-session-selector.vercel.app/",
       "required": true,
       "value": ""
     },
@@ -39,6 +39,16 @@
     },
     "autoRead": {
       "description": "make it true or false if you want bot to read messages leave it blank if you don't want it to read messages",
+      "required": false,
+      "value": ""
+      },
+    "WELCOME_MSG": {
+      "description": "make it true or false if you want bot to Send welcome message when someone joins a group",
+      "required": false,
+      "value": ""
+      },
+    "GOODBYE_MSG": {
+      "description": "make it true or false if you want bot to Send goodbye message when someone leaves a group",
       "required": false,
       "value": ""
       },
@@ -70,7 +80,7 @@
     "STATUS_MSG": {
       "description": "custmize with your message",
       "required": false,
-      "value": "VORTEX-XMD BOT SUCCESSFULLY VIEWED YOUR STATUS 💖💚"
+      "value": "VORTEX MD BOT SUCCESSFULLY VIEWED YOUR STATUS 💖💚"
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",

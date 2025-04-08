@@ -1,6 +1,6 @@
 FROM quay.io/gurusensei/gurubhay:latest
 
-RUN git clone https://github.com/mrhanstz/VORTEX /root/sylivanus
+RUN git clone https://github.com/Hans-Xmd/VORTEX-XMD /root/sylivanus
 
 WORKDIR /root/sylivanus/
 
