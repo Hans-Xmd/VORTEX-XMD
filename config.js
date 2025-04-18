@@ -12,8 +12,6 @@ PREFIX: process.env.PREFIX || ".",
 BOT_NAME: process.env.BOT_NAME || "✦ Vortex ✦ XMD ✦",
 // add bot namw here for menu
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
-
-REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
@@ -27,7 +25,7 @@ DESCRIPTION: process.env.DESCRIPTION || "*© ✦ Vortex ✦ XMD ✦*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/BKYt9f00/hanstz.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Vortex IS SPARKING ACTIVE AND ALIVE\n\n\nKEEP USING Vertex Xmd FROM Vortex TECH INC⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> Vortex IS Active AND Alive\n\n\nKeep Using Vertex Xmd From Vortex Tech Inc⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs

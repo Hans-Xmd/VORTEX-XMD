@@ -14,13 +14,22 @@
       "description": "Put the session-id here.",
       "required": true,
       "value": ""
-    },  
-    
+    },
     "REJECT_CALL": {
       "description": "make it true if you want to reject call",
       "required": false,
       "value": "false"
+    },      
+    "ANTI_DELETE": {
+      "description": "set path for antidelete for same chat set to same",
+      "required": true,
+      "value": "inbox"
     },
+    "ANTI_DELETE_PATH": {
+      "description": "make it true for use anti delete",
+      "required": true,
+      "value": "true"
+    },    
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
       "required": false,
@@ -30,7 +39,7 @@
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
       "value": "public"      
-    },        
+    },    
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": false,
@@ -69,29 +78,34 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "pkdriller"
+      "value": "HansTz"
     }, 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254785392165"
-    },
+      "value": "255750590440"
+     },
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
       "value": "✦ Vortex Xmd✦"
-    }, 
+      }, 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
       "value": "false"      
-    },    
+     },    
     "ANTI_BAD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
       "value": "false"
+    }, 
+     "DESCRIPTION": {
+      "description": "add caption for menu and other",
+      "required": false,
+      "value": "*© ✦Vortex Xmd✦*"
     },
-    "DELETE_LINKS": {
+      "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
       "required": false,
       "value": "false"
@@ -111,6 +125,11 @@
       "required": false,
       "value": "false"
     },
+    "OWNER_REACT": {
+      "description": "Make it true if you only want react on Owner Massages.",
+      "required": false,
+      "value": "false"      
+    },     
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
       "required": false,
