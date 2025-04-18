@@ -1,17 +1,26 @@
 {
-  "name": "VORTEX-𝐗𝐌𝐃",
-  "description": "Javascript WhatsApp bot made by VORTEX-XMD ",
-  "keywords": ["bot"],    
+  "name": "VORTEX-XMD",
+  "description": "Javascript WhatsApp bot made by HansTz.",
+  "keywords": ["VORTEX-XMD"],
+  
+  
   "logo": "https://github.com/Mrhanstz/VORTEX-XMD/raw/refs/heads/main/HansTz/HansTz.jpg",
   "repository": "https://github.com/Mrhanstz/VORTEX-XMD",
   "succes_url": "/",
+
   "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
       "value": ""
-    },      
+    },  
+    
+    "REJECT_CALL": {
+      "description": "make it true if you want to reject call",
+      "required": false,
+      "value": "false"
+    },
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
       "required": false,
@@ -21,7 +30,7 @@
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
       "value": "public"      
-    },    
+    },        
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": false,
@@ -52,27 +61,25 @@
       "required": true,
       "value": "false"
     }, 
-
     "AUTO_STATUS__MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*👀 𝙹𝚄𝚂𝚃 𝙽𝙾𝚆 𝚂𝙴𝙴𝙽 𝙱𝚈 Vortex-xmd*"
+      "value": "*🎉👀 sᴇᴇɴ ʙʏ Vortex Xmd🚀🔥*"
     }, 
-
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "VORTEX-𝐗𝐌𝐃✨"
+      "value": "pkdriller"
     }, 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "255753668403"
-   },
+      "value": "254785392165"
+    },
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "VORTEX-𝐗𝐌𝐃"
+      "value": "✦ Vortex Xmd✦"
     }, 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
@@ -83,11 +90,11 @@
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
       "value": "false"
-    }, 
-      "DELETE_LINKS": {
+    },
+    "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
       "required": false,
-      "value": "true"
+      "value": "false"
     },    
     "AUTO_RECORDING": {
       "description": "Make it true if you want auto recoding.",
